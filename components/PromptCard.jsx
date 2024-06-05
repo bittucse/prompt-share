@@ -30,7 +30,7 @@ const PromptCard = ({post,handleTagClick,handleEdit,handleDelete}) => {
   }
 
   return (
-    <div className=' prompt_card hover:shadow-lg hover:shadow-orange-300 hover:border-dashed hover:border-2 hover:border-black'>
+    <div className=' prompt_card'>
       <div className=' flex justify-between items-start gap-5'>
         
        <div className=' flex-1 flex justify-start items-center gap-3 cursor-pointer' onClick={handleProfileClick}>
@@ -75,9 +75,9 @@ const PromptCard = ({post,handleTagClick,handleEdit,handleDelete}) => {
         <p className='font-inter text-sm green_gradient cursor-pointer' onClick={handleEdit}>
           Edit
         </p>
-        <p className='font-inter text-sm orange_gradient cursor-pointer' onClick={handleDelete}>
+        {/* <p className='font-inter text-sm orange_gradient cursor-pointer' onClick={handleDelete}>
           Delete
-        </p>
+        </p> */}
       </div>)}
     </div>
   )
