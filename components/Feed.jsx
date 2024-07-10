@@ -17,7 +17,7 @@ const PromptCardList = ({ data, handleTagClick }) => {
     </div>
   );
 };
-
+// TODO fetch data into page.jsx(main page)
 const Feed = () => {
   const [allPosts, setAllPosts] = useState([]);
 
